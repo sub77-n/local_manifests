@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".." />
+           fetch="https://android.googlesource.com/" />
   <default revision="refs/tags/android-n-preview-5"
            remote="aosp"
            sync-j="4" />
@@ -537,5 +537,9 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
+  <include name="sonyaosp/remove.xml" />
+  <include name="sonyaosp/sony.xml" />
+  <include name="sonyaosp/aosp.xml" />
+  <include name="sonyaosp/opengapps.xml" />
 
 </manifest>

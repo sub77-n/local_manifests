@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+           fetch="git://github.com/" />
+
+  <remote  name="sony"
+           fetch="git://github.com/sonyxperiadev/" />
+
+  <project path="device/sony/sepolicy" name="SonyAosp/device_sony_sepolicy" groups="device" remote="github" revision="n" />
+  <project path="device/sony/common" name="SonyAosp/device_sony_common" groups="device" remote="github" revision="n" />
+
+  <project path="device/sony/loire" name="SonyAosp/device_sony_loire" groups="device" remote="github" revision="n" />
+  <project path="device/sony/suzu" name="SonyAosp/device_sony_suzu" groups="device" remote="github" revision="n" />
+
+  <project path="device/sony/rhine" name="SonyAosp/device_sony_rhine" groups="device" remote="github" revision="n" />
+  <project path="device/sony/honami" name="SonyAosp/device_sony_honami" groups="device" remote="github" revision="n" />
+
+  <project path="hardware/qcom/camera" name="SonyAosp/platform_hardware_qcom_camera" groups="qcom" remote="github" revision="n" />
+
+  <project path="hardware/sony/thermanager" name="SonyAosp/platform_hardware_sony_thermanager" groups="device" remote="github" revision="master" />
+  <project path="hardware/sony/timekeep" name="SonyAosp/platform_hardware_sony_timekeep" groups="device" remote="github" revision="master" />
+  <project path="hardware/sony/macaddrsetup" name="SonyAosp/platform_hardware_sony_macaddrsetup" groups="device" remote="github" revision="master" />
+  <project path="hardware/sony/init" name="SonyAosp/platform_hardware_sony_init" groups="device" remote="github" revision="n" />
+
+  <project path="kernel/sony/msm" name="SonyAosp/kernel" groups="device" remote="github" revision="n" />
+
+  <project path="vendor/qcom" name="SonyAosp/vendor_qcom" groups="device" remote="github" revision="n" />
+  <project path="vendor/qcom/firmware" name="SonyAosp/vendor_qcom_firmware" groups="device" remote="github" revision="n" />
+  <project path="vendor/qcom/opensource/dataservices" name="SonyAosp/vendor_qcom_opensource_dataservices" groups="device" remote="github" revision="n" />
+  <project path="vendor/sony" name="SonyAosp/vendor_sony" groups="device" remote="github" revision="n" />
+
+</manifest>

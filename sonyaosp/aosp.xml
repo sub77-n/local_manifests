@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <project path="build" name="SonyAosp/platform_build" groups="pdk" remote="github" revision="n" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+
+  <project path="external/tinyalsa" name="SonyAosp/platform_external_tinyalsa" groups="pdk" remote="github" revision="n" />
+  <project path="external/tinycompress" name="SonyAosp/platform_external_tinycompress" groups="pdk" remote="github" revision="n" />
+  <project path="external/toybox" name="SonyAosp/platform_external_toybox" groups="pdk" remote="github" revision="n" />
+
+  <project path="frameworks/base" name="SonyAosp/platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github" revision="n" />
+
+  <project path="hardware/qcom/audio" name="SonyAosp/platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="n" />
+  <project path="hardware/qcom/display" name="SonyAosp/platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="n" />
+  <project path="hardware/qcom/gps" name="SonyAosp/platform_hardware_qcom_gps" groups="qcom,qcom_gps" remote="github" revision="n" />
+  <project path="hardware/qcom/keymaster" name="SonyAosp/platform_hardware_qcom_keymaster" groups="qcom,qcom_keymaster" remote="github" revision="n" />
+  <project path="hardware/qcom/media" name="SonyAosp/platform_hardware_qcom_media" groups="qcom" remote="github" revision="n" />
+
+  <project path="packages/apps/CellBroadcastReceiver" name="SonyAosp/platform_packages_apps_CellBroadcastReceiver" groups="pdk-fs" remote="github" revision="n" />
+  <project path="packages/apps/Nfc" name="SonyAosp/platform_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="github" revision="n" />
+  <project path="packages/apps/Settings" name="SonyAosp/platform_packages_apps_Settings" groups="pdk-fs" remote="github" revision="n" />
+
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" revision="refs/tags/android-6.0.1_r62" />
+
+  <project path="system/core" name="SonyAosp/platform_system_core" groups="pdk" remote="github" revision="n" />
+
+  <project path="vendor/google" name="SonyAosp/vendor_google" groups="device" remote="github" revision="n" >
+    <copyfile src="build.sh" dest="rom-build.sh" />
+  </project>
+
+</manifest>
