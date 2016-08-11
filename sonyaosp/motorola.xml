@@ -7,7 +7,7 @@
   <remote  name="sub"
            fetch="git://github.com/sub77-n/" />
 
- <remove-project name="SonyAosp/vendor_qcom" />
+ <!--<remove-project name="SonyAosp/vendor_qcom" />-->
   <project path="vendor/qcom" name="android_vendor_qcom" groups="device" remote="sub" revision="n" />
   
   <project path="vendor/qcom/firmware" name="SonyAosp/vendor_qcom_firmware" groups="device" remote="github" revision="n" />
@@ -15,7 +15,7 @@
   
   <project path="device/sony/falcon" name="android_device_motorola_falcon" groups="device" remote="sub" revision="n" />
   
- <remove-project name="SonyAosp/kernel" />
+ <!--<remove-project name="SonyAosp/kernel" />-->
   <project path="kernel/sony/msm" name="android_kernel_motorola_msm8226" groups="device" remote="sub" revision="n" />
 
   <!--
