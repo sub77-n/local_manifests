@@ -24,9 +24,9 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" revision="refs/tags/android-6.0.1_r62" />
 
   <project path="system/core" name="SonyAosp/platform_system_core" groups="pdk" remote="github" revision="n" />
-
+<!--
   <project path="vendor/google" name="SonyAosp/vendor_google" groups="device" remote="github" revision="n" >
     <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
-
+-->
 </manifest>
