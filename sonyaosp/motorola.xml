@@ -5,7 +5,7 @@
            fetch="git://github.com/" />
 
   <remote  name="sub"
-           fetch="git://github.com/sub77-n/" />
+           fetch="ssh://git@github.com/sub77-du/" />
 
  <!--<remove-project name="SonyAosp/vendor_qcom" />-->
   <project path="vendor/qcom" name="android_vendor_qcom" groups="device" remote="sub" revision="n" />
