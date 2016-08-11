@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Device -->
+  <project name="sub77-n/android_device_samsung_matissewifi" path="device/samsung/matissewifi" remote="github" revision="n" />  
+  <!-- Kernel -->
+  <project name="sub77-n/android_kernel_samsung_msm8226" path="kernel/samsung/msm8226" remote="github" revision="n" />
+  <!-- Vendor -->
+  <project name="sub77-n/android_vendor_samsung_matissewifi" path="vendor/samsung/matissewifi" remote="github" revision="n" />
+</manifest>
